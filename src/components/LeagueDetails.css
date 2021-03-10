@@ -1,0 +1,79 @@
+.head {
+  position: relative;
+  background-color: bisque;
+  min-height: 300px;
+}
+.badge {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: black;
+  object-fit: contain;
+}
+.names {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.35);
+  padding: 20px;
+  border-radius: 10px;
+  color: ghostwhite;
+  box-shadow: 5px 5px 25px 1px rgba(0, 0, 0, 0.35);
+}
+.meta {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: auto 0;
+}
+.meta > h2 {
+  margin: 0;
+}
+.topMeta {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 0;
+  flex-wrap: wrap;
+}
+.genderPic {
+  width: 450px;
+}
+.disc {
+  max-width: 50rem;
+  text-align: center;
+  margin: auto;
+  padding: 35px 0;
+  font-size: 18px;
+}
+.logo {
+  width: 100%;
+  max-height: 350px;
+  max-width: 800px;
+}
+
+@media only screen and (max-width: 650px) {
+  .badge {
+    width: 175px;
+    top: 70%;
+  }
+  .topMeta {
+    margin-top: 50px;
+  }
+  .names {
+    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35px;
+  }
+  .meta {
+    margin-bottom: 50px;
+  }
+}

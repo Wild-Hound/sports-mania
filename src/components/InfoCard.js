@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import {Link} from "react-router-dom";
 import "./infoCard.css"
 
 
@@ -14,7 +15,9 @@ function InfoCard({lgName,lgType,id}) {
             <img src={imgSrc} className="lgImg"/>
             <h3 className="lgName">{lgName}</h3>
             <h5 className="lgType">Sports Type: {lgType}</h5>
-            <button className="lgBtn">Explore</button>
+            <Link to={`/details/${id}`}>
+                <button className="lgBtn">Explore</button>
+            </Link>
         </div>
     )
 }
