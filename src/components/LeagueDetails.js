@@ -1,8 +1,11 @@
 import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router'
+import {Link} from "react-router-dom"
 import "./LeagueDetails.css"
 import male from "../Images/male.png"
 import female from "../Images/female.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faYoutube, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 function LeagueDetails() {
 
@@ -37,6 +40,11 @@ function LeagueDetails() {
                 <img src={strGender == "Male" ? male:female} className="genderPic"/>
             </div>
             <p className="disc">{strDescriptionEN}</p>
+            <div className="socialArea">
+                <div className="social"><a href="https://twitter.com/home?lang=en"><FontAwesomeIcon icon={faTwitter} /></a></div>
+                <div className="social"><a href="https://www.youtube.com/"><FontAwesomeIcon icon={faYoutube} /></a></div>
+                <div className="social"><a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} /></a></div>
+            </div>
         </div>
     )
 }

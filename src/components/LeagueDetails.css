@@ -58,6 +58,14 @@
   max-height: 350px;
   max-width: 800px;
 }
+.socialArea {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 650px) {
   .badge {
