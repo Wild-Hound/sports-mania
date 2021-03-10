@@ -5,3 +5,8 @@
   flex-wrap: wrap;
   padding: 40px;
 }
+.MuiPagination-root {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}

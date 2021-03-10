@@ -9,3 +9,29 @@
 .lgImg {
   width: 100%;
 }
+
+.lgBtn {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #3dd4b8;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  transition: all 0.2s;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #3dd4b8;
+  transition: 0.35s;
+}
+.lgBtn:hover {
+  color: #fff;
+  background-color: #2ae7c4;
+  cursor: pointer;
+  transform: scale(1.15);
+}
