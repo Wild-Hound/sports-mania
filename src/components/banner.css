@@ -1,0 +1,16 @@
+.banner {
+  width: 100%;
+  min-height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../Images/bannerImg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-text {
+  font-size: 86px;
+  color: #fff;
+  text-shadow: 5px 5px #ffffff23;
+}
