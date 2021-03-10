@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router'
 import {Link} from "react-router-dom"
 import "./LeagueDetails.css"
-import male from "../Images/male.png"
-import female from "../Images/female.png"
+import male from "../Images/male-min.jpg"
+import female from "../Images/female-min.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faYoutube, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
