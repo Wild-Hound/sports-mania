@@ -1,7 +1,5 @@
 # Welcome to League Database
 
-## Through this site you will find all of your league related info
+## This site uses "thesportsdb" API to retrive data and use as on its frontend
 
-## The code is neat and clean to read through
-
-Website: https://zen-kilby-8668f0.netlify.app/
+Live Link: https://zen-kilby-8668f0.netlify.app/
